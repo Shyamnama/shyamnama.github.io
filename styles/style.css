@@ -33,6 +33,7 @@ img {
   display: block;
   border-radius: 50%;
   box-shadow: 4px 4px 10px #979ea1;
+  margin-bottom: 2rem;
 }
 
 .section-title {
@@ -87,7 +88,6 @@ img {
 }
 .home__title {
   font-size: 3.5rem;
-  margin-bottom: 2.5rem;
 }
 .home__title-color {
   color: #4070f4;
@@ -109,7 +109,7 @@ img {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 250px;
+  width: 300px;
 }
 
 .about__container {
@@ -164,7 +164,7 @@ img {
   }
 
   .home {
-    height: 100vh;
+    height: 90vh;
   }
   .home__data {
     align-self: flex-end;
@@ -217,7 +217,7 @@ img {
 
 @media screen and (max-width: 1200px) {
   img {
-    max-width: 295px;
+    max-width: 300px;
     margin-left: auto;
   }
   .home__title {
@@ -230,11 +230,14 @@ img {
 }
 
 @media screen and (max-width: 767px) {
+  .home__title {
+    font-size: 2rem;
+  }
   img {
-    max-width: 295px;
+    max-width: 100%;
   }
   .home__img {
     top: 50%;
-    right: 15%;
+    right: 5%;
   }
 }
